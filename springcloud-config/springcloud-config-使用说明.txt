@@ -1,0 +1,9 @@
+1、服务端：springcloud-config-server
+
+2、客户端：springcloud-config-client
+
+3、必须启动eureka服务端，
+springcloud-config-server和springcloud-config-client项目都可以不加 @EnableDiscoveryClient，
+只要把eureka服务端启动了就可以了
+
+4、eureka服务端在springcloud-eureka/springcloud-eureka-server包下

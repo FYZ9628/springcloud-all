@@ -16,6 +16,7 @@ public class ClientController {
     @Value("${word}")
     private String word;
 
+    //访问地址：http://127.0.0.1:8004/hello?name=klkkll
     @RequestMapping("/hello")
     public String index(@RequestParam String name) {
         return name+","+this.word;
